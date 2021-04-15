@@ -1,0 +1,81 @@
+:root {
+	--cor-fundo-destaque: rgb(66, 35, 207);
+	--cor-frente-destaque: #FFF;
+	--espacamento-padrao: 0.5rem;
+	--font-family-padrao: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+	color: var(--cor-frente-destaque);
+	font-family: var(--font-family-padrao);
+	background-color: var(--cor-fundo-destaque);
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
+
+ul{
+	padding-left: 1rem;
+	list-style-type: none;
+}
+
+nav ul li {
+	background-color: aquamarine;
+	color: red;
+	margin-bottom: 0.5rem;
+	padding: 0.25rem;
+}
+
+nav ul li a {
+	color: red;
+}
+
+article {
+	border: 2px solid rgb(212, 116, 5);
+	padding: 1.5rem;
+}
+
+article section h2 {
+	color: #fff;
+	font-family: Arial, Heveltica, sans-serif;
+	background-color: rgb(212, 116, 5);
+	padding: 0.5rem;
+	font-size: 1.25rem;
+	margin-top: 0;
+}
+
+article section p {
+	font-family: Arial, Heveltica, sans-serif;
+}
+
+article section {
+	width: 420px;
+	border: 1px solid rgb(212, 116, 5);
+	box-sizing: border-box;
+	padding: 0.5rem;
+}
+
+article {
+	display: fine;
+	justify-content:  space-between;
+}
+
+footer p a {
+	display: inline-block;
+	padding: 0.5rem;
+	background-color: rgb(17,71, 1);
+	color: #fff;
+	text-decoration: none;
+	border-radius:  0.5rem;
+	box-shadow: #999 4px 2px 4px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+	article {
+		
+	}
+
+	article {
+
+	}
+}
